@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07835F7921A43A3F002DA8B0 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835F7821A43A3F002DA8B0 /* Address.swift */; };
+		07835F7B21A4787C002DA8B0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835F7A21A4787C002DA8B0 /* PostCell.swift */; };
+		07B27554219D58E20043B94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27553219D58E20043B94D /* AppDelegate.swift */; };
+		07B27556219D58E20043B94D /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27555219D58E20043B94D /* UsersView.swift */; };
+		07B2755B219D58E50043B94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B2755A219D58E50043B94D /* Assets.xcassets */; };
+		07B2755E219D58E50043B94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2755C219D58E50043B94D /* LaunchScreen.storyboard */; };
+		07B27566219D58FB0043B94D /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27565219D58FB0043B94D /* UsersInteractor.swift */; };
+		07B2756A219DF02C0043B94D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27569219DF02C0043B94D /* User.swift */; };
+		07B2756C219E1EDB0043B94D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2756B219E1EDB0043B94D /* UserCell.swift */; };
+		07B2756E219EE0990043B94D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2756D219EE0990043B94D /* Post.swift */; };
+		07B27572219EE7CC0043B94D /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27571219EE7CC0043B94D /* UsersPresenter.swift */; };
+		07B27578219EE9320043B94D /* UsersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27577219EE9320043B94D /* UsersProtocols.swift */; };
+		07B2757B219EEA570043B94D /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2757A219EEA570043B94D /* UsersRouter.swift */; };
+		07B27582219F178C0043B94D /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27581219F178C0043B94D /* PostsView.swift */; };
+		07B27584219F17DC0043B94D /* PostsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27583219F17DC0043B94D /* PostsInteractor.swift */; };
+		07B27586219F18280043B94D /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27585219F18270043B94D /* PostsPresenter.swift */; };
+		07B27588219F18470043B94D /* PostsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27587219F18470043B94D /* PostsRouter.swift */; };
+		07B2758A219F1B1F0043B94D /* PostsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B27589219F1B1F0043B94D /* PostsProtocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07835F7821A43A3F002DA8B0 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		07835F7A21A4787C002DA8B0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		07B27550219D58E20043B94D /* zalando_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zalando_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B27553219D58E20043B94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07B27555219D58E20043B94D /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		07B2755A219D58E50043B94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B2755D219D58E50043B94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B2755F219D58E50043B94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B27565219D58FB0043B94D /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
+		07B27569219DF02C0043B94D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07B2756B219E1EDB0043B94D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		07B2756D219EE0990043B94D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		07B27571219EE7CC0043B94D /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		07B27577219EE9320043B94D /* UsersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocols.swift; sourceTree = "<group>"; };
+		07B2757A219EEA570043B94D /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		07B27581219F178C0043B94D /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		07B27583219F17DC0043B94D /* PostsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsInteractor.swift; sourceTree = "<group>"; };
+		07B27585219F18270043B94D /* PostsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsPresenter.swift; sourceTree = "<group>"; };
+		07B27587219F18470043B94D /* PostsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRouter.swift; sourceTree = "<group>"; };
+		07B27589219F1B1F0043B94D /* PostsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsProtocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B2754D219D58E20043B94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B27547219D58E20043B94D = {
+			isa = PBXGroup;
+			children = (
+				07B27552219D58E20043B94D /* zalando_task */,
+				07B27551219D58E20043B94D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B27551219D58E20043B94D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B27550219D58E20043B94D /* zalando_task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B27552219D58E20043B94D /* zalando_task */ = {
+			isa = PBXGroup;
+			children = (
+				07B2755F219D58E50043B94D /* Info.plist */,
+				07B2758C219F21350043B94D /* App */,
+				07B2758B219F1C1C0043B94D /* Entities */,
+				07B2757E219EEB6D0043B94D /* Modules */,
+			);
+			path = zalando_task;
+			sourceTree = "<group>";
+		};
+		07B2757E219EEB6D0043B94D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				07B2757F219F168D0043B94D /* Users */,
+				07B27580219F16DF0043B94D /* Posts */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		07B2757F219F168D0043B94D /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				07B27577219EE9320043B94D /* UsersProtocols.swift */,
+				07B27555219D58E20043B94D /* UsersView.swift */,
+				07B27565219D58FB0043B94D /* UsersInteractor.swift */,
+				07B27571219EE7CC0043B94D /* UsersPresenter.swift */,
+				07B2757A219EEA570043B94D /* UsersRouter.swift */,
+				07B2756B219E1EDB0043B94D /* UserCell.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		07B27580219F16DF0043B94D /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				07B27589219F1B1F0043B94D /* PostsProtocols.swift */,
+				07B27581219F178C0043B94D /* PostsView.swift */,
+				07B27583219F17DC0043B94D /* PostsInteractor.swift */,
+				07B27585219F18270043B94D /* PostsPresenter.swift */,
+				07B27587219F18470043B94D /* PostsRouter.swift */,
+				07835F7A21A4787C002DA8B0 /* PostCell.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		07B2758B219F1C1C0043B94D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				07B27569219DF02C0043B94D /* User.swift */,
+				07835F7821A43A3F002DA8B0 /* Address.swift */,
+				07B2756D219EE0990043B94D /* Post.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		07B2758C219F21350043B94D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07B27553219D58E20043B94D /* AppDelegate.swift */,
+				07B2755A219D58E50043B94D /* Assets.xcassets */,
+				07B2755C219D58E50043B94D /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B2754F219D58E20043B94D /* zalando_task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B27562219D58E50043B94D /* Build configuration list for PBXNativeTarget "zalando_task" */;
+			buildPhases = (
+				07B2754C219D58E20043B94D /* Sources */,
+				07B2754D219D58E20043B94D /* Frameworks */,
+				07B2754E219D58E20043B94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zalando_task;
+			productName = zalando_task;
+			productReference = 07B27550219D58E20043B94D /* zalando_task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B27548219D58E20043B94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nikolai Guyot";
+				TargetAttributes = {
+					07B2754F219D58E20043B94D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 07B2754B219D58E20043B94D /* Build configuration list for PBXProject "zalando_task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B27547219D58E20043B94D;
+			productRefGroup = 07B27551219D58E20043B94D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B2754F219D58E20043B94D /* zalando_task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B2754E219D58E20043B94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B2755E219D58E50043B94D /* LaunchScreen.storyboard in Resources */,
+				07B2755B219D58E50043B94D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B2754C219D58E20043B94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B2757B219EEA570043B94D /* UsersRouter.swift in Sources */,
+				07B27556219D58E20043B94D /* UsersView.swift in Sources */,
+				07B27572219EE7CC0043B94D /* UsersPresenter.swift in Sources */,
+				07B2758A219F1B1F0043B94D /* PostsProtocols.swift in Sources */,
+				07B27566219D58FB0043B94D /* UsersInteractor.swift in Sources */,
+				07B27554219D58E20043B94D /* AppDelegate.swift in Sources */,
+				07B27588219F18470043B94D /* PostsRouter.swift in Sources */,
+				07B27582219F178C0043B94D /* PostsView.swift in Sources */,
+				07B27584219F17DC0043B94D /* PostsInteractor.swift in Sources */,
+				07835F7921A43A3F002DA8B0 /* Address.swift in Sources */,
+				07B2756C219E1EDB0043B94D /* UserCell.swift in Sources */,
+				07B2756A219DF02C0043B94D /* User.swift in Sources */,
+				07B27578219EE9320043B94D /* UsersProtocols.swift in Sources */,
+				07B27586219F18280043B94D /* PostsPresenter.swift in Sources */,
+				07B2756E219EE0990043B94D /* Post.swift in Sources */,
+				07835F7B21A4787C002DA8B0 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B2755C219D58E50043B94D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B2755D219D58E50043B94D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B27560219D58E50043B94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07B27561219D58E50043B94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B27563219D58E50043B94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X53AGU68LY;
+				INFOPLIST_FILE = zalando_task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaiguyot.zalando-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B27564219D58E50043B94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X53AGU68LY;
+				INFOPLIST_FILE = zalando_task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaiguyot.zalando-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B2754B219D58E20043B94D /* Build configuration list for PBXProject "zalando_task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B27560219D58E50043B94D /* Debug */,
+				07B27561219D58E50043B94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B27562219D58E50043B94D /* Build configuration list for PBXNativeTarget "zalando_task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B27563219D58E50043B94D /* Debug */,
+				07B27564219D58E50043B94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B27548219D58E20043B94D /* Project object */;
+}
